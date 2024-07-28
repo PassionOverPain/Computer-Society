@@ -7,7 +7,7 @@
   --smallfont: 1.2rem;
   --mainfont: 1.7rem;
   --bigfont: 3.2rem;
-  --yellow: rgb(232, 236, 1);
+  --yellow: rgb(254, 207, 49);
   text-decoration: none;
 }
 body {
@@ -59,7 +59,7 @@ nav img {
   font-size: var(--bigfont);
 }
 .animatedText {
-  font-size: var(--mainfont);
+  font-size: 2rem;
   min-width: 260px;
 }
 .animatedText span {
@@ -68,7 +68,7 @@ nav img {
 #movingText::before {
   content: "Code";
   font-weight: bold;
-  color: black;
+  color: var(--yellow);
   animation: words 22s infinite;
 }
 @keyframes words {
@@ -99,7 +99,7 @@ nav img {
   width: calc(100% + 8px);
   height: 100%;
   background-color: white;
-  border-left: 2px solid black;
+  border-left: 2px solid var(--yellow);
   right: -8px;
   animation: cursor 0.8s infinite, typing 22s steps(14) infinite;
 }
