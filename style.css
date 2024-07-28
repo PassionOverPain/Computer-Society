@@ -220,13 +220,21 @@ main {
   height: fit-content;
 }
 section {
-  display: inline-block;
+  display: block;
   justify-content: center;
+  text-align: center;
   height: 100vh;
   background-color: #fff;
 }
 .subImage {
   height: 40px;
+}
+.paragraph {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: var(--yellow);
+  padding: 15px;
+  font-size: var(--mainfont);
 }
 #Team {
   display: block;
@@ -234,9 +242,11 @@ section {
 #Mandela {
   float: right;
   height: 200px;
+  border-radius: 100%;
 }
 .subTitle {
   display: inline-block;
+  font-size: var(--bigfont);
 }
 footer {
   background-color: rgb(2, 2, 134);
