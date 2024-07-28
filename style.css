@@ -24,7 +24,10 @@ body {
   cursor: pointer;
 }
 #Join {
+  cursor: pointer;
   margin-top: 10%;
+  width: 10vw;
   padding: 10px;
+  border-width: 1px;
   background-color: transparent;
 }
