@@ -62,6 +62,7 @@ nav img {
 }
 .animatedText {
   font-size: var(--mainfont);
+  min-width: 260px;
 }
 .animatedText span {
   position: relative;
@@ -69,15 +70,70 @@ nav img {
 #movingText::before {
   content: "Code";
   font-weight: bold;
-  color: var(--yellow);
+  color: black;
+  animation: words 22s infinite;
+}
+@keyframes words {
+  0%,
+  20% {
+    content: "Code";
+  }
+  21%,
+  40% {
+    content: "Collaborate";
+  }
+  41%,
+  60% {
+    content: "Innovate";
+  }
+  61%,
+  80% {
+    content: "Level Up";
+  }
+  81%,
+  100% {
+    content: "Join Today";
+  }
 }
 #movingText::after {
   content: "";
   position: absolute;
-  width: 10px;
+  width: calc(100% + 8px);
   height: 100%;
-  background-color: blue;
-  border-left: 2px solid;
+  background-color: white;
+  border-left: 2px solid black;
+  right: -8px;
+  animation: cursor 0.8s infinite, typing 22s steps(14) infinite;
+}
+@keyframes typing {
+  10%,
+  15%,
+  30%,
+  35%,
+  50%,
+  55%,
+  70%,
+  75%,
+  90%,
+  95% {
+    width: 0;
+  }
+  5%,
+  20%,
+  25%,
+  40%,
+  45%,
+  60%,
+  65%,
+  80%,
+  85% {
+    width: calc(100% + 8px);
+  }
+}
+@keyframes cursor {
+  to {
+    border-left: 2px solid transparent;
+  }
 }
 #Join {
   cursor: pointer;
