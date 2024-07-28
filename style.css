@@ -23,3 +23,8 @@ body {
   width: 50%;
   cursor: pointer;
 }
+#Join {
+  margin-top: 10%;
+  padding: 10px;
+  background-color: transparent;
+}
