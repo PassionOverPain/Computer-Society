@@ -26,8 +26,12 @@ body {
 #Join {
   cursor: pointer;
   margin-top: 10%;
-  width: 10vw;
+  width: 30%;
   padding: 10px;
   border-width: 1px;
   background-color: transparent;
+  transition: all 0.2s;
+}
+#Join:hover {
+  background-color: yellow;
 }
