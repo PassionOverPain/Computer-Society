@@ -60,6 +60,25 @@ nav img {
 #CS {
   font-size: var(--bigfont);
 }
+.animatedText {
+  font-size: var(--mainfont);
+}
+.animatedText span {
+  position: relative;
+}
+#movingText::before {
+  content: "Code";
+  font-weight: bold;
+  color: var(--yellow);
+}
+#movingText::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 100%;
+  background-color: blue;
+  border-left: 2px solid;
+}
 #Join {
   cursor: pointer;
   margin-top: 10%;
