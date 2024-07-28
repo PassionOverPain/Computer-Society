@@ -4,6 +4,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  --smallfont: 1.2rem;
+  --mainfont: 1.7rem;
+  --bigfont: 3.2rem;
 }
 body {
   background-color: red;
@@ -35,12 +38,12 @@ nav img {
   position: relative;
 }
 #heroTop {
-  display: block;
+  display: grid;
   position: relative;
   justify-content: center;
   text-align: center;
   align-items: center;
-  height: 50vh;
+  height: 85vh;
   overflow: hidden;
 }
 #heroCenter {
@@ -49,17 +52,21 @@ nav img {
 }
 #NMU {
   position: relative;
-  width: 10%;
+  width: 40%;
   cursor: pointer;
+}
+#CS {
+  font-size: var(--bigfont);
 }
 #Join {
   cursor: pointer;
   margin-top: 10%;
-  width: 10%;
+  width: 30%;
   padding: 10px;
   border-width: 1px;
   background-color: transparent;
   transition: all 0.2s;
+  font-size: medium;
 }
 #Join:hover {
   background-color: yellow;
