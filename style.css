@@ -220,8 +220,19 @@ main {
   height: fit-content;
 }
 section {
+  display: inline-block;
+  justify-content: center;
   height: 100vh;
-}
-#OurTeam {
   background-color: #fff;
+}
+section img {
+  height: 200px;
+  float: right;
+}
+.subTitle {
+  display: block;
+}
+footer {
+  background-color: rgb(2, 2, 134);
+  height: 30vh;
 }
