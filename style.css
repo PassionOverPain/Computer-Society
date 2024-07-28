@@ -15,7 +15,7 @@ body {
   scroll-behavior: smooth;
 }
 #navBar {
-  position: relative;
+  position: sticky;
   display: inline-block;
   top: 0;
 }
@@ -23,10 +23,8 @@ nav {
   display: flex;
   justify-content: space-between;
   text-align: start;
-  /* ---------------------Someone Fix This----------------  */
   width: 100vw;
   height: 10vh;
-  background-color: aqua;
   overflow: hidden;
 }
 nav img {
