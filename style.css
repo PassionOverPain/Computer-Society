@@ -8,6 +8,19 @@
 body {
   background-color: red;
 }
+nav {
+  display: flex;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 10vh;
+  background-color: aqua;
+  overflow: hidden;
+}
+nav img {
+  position: relative;
+  width: 50%;
+}
 #heroSection {
   height: 100vh;
   display: flex;
@@ -15,6 +28,7 @@ body {
   align-items: center;
   text-align: center;
   background-color: #fff;
+  position: relative;
 }
 #heroCenter {
   display: grid;
