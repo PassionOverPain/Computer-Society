@@ -7,6 +7,7 @@
 }
 body {
   background-color: red;
+  scroll-behavior: smooth;
 }
 #navBar {
   position: relative;
@@ -30,18 +31,24 @@ nav img {
 #heroSection {
   height: 100vh;
   display: inline-block;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   background-color: #fff;
   position: relative;
 }
-#heroCenter {
-  display: grid;
+#heroTop {
+  display: block;
+  position: relative;
   justify-content: center;
+  text-align: center;
   align-items: center;
+  height: 50vh;
+  overflow: hidden;
+}
+#heroCenter {
+  position: relative;
+  display: inline-block;
 }
 #NMU {
+  position: relative;
   width: 10%;
   cursor: pointer;
 }
