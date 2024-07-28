@@ -9,10 +9,31 @@
   --bigfont: 3.2rem;
   --yellow: rgb(254, 207, 49);
   text-decoration: none;
+  color: #000;
+  list-style: none;
 }
 body {
   background-color: red;
   scroll-behavior: smooth;
+}
+#linkList {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  line-height: 400%;
+}
+#linkList li {
+  margin-right: 5px;
+  font-size: larger;
+  font-weight: bolder;
+  padding-left: 5px;
+  padding-right: 5px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+#linkList li:hover {
+  background-color: var(--yellow);
 }
 #navBar {
   position: sticky;
