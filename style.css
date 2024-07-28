@@ -7,6 +7,8 @@
   --smallfont: 1.2rem;
   --mainfont: 1.7rem;
   --bigfont: 3.2rem;
+  --yellow: rgb(255, 255, 5);
+  text-decoration: none;
 }
 body {
   background-color: red;
@@ -69,5 +71,20 @@ nav img {
   font-size: medium;
 }
 #Join:hover {
-  background-color: yellow;
+  background-color: var(--yellow);
+}
+#socialIcons {
+  margin-top: 10%;
+}
+#socialIcons ion-icon {
+  font-size: var(--mainfont);
+  margin-right: 10%;
+  cursor: pointer;
+  border: solid 1px #000;
+  border-radius: 100px;
+  padding: 5px;
+  transition: border 0.5s;
+}
+#socialIcons ion-icon:hover {
+  border-color: var(--yellow);
 }
