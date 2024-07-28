@@ -10,8 +10,10 @@ body {
 }
 nav {
   display: flex;
-  position: absolute;
-  top: 0;
+  justify-content: space-between;
+  text-align: start;
+  position: relative;
+  top: -13vh; /* ---------------------Someone Fix This----------------  */
   width: 100vw;
   height: 10vh;
   background-color: aqua;
@@ -19,11 +21,11 @@ nav {
 }
 nav img {
   position: relative;
-  width: 50%;
+  height: 100%;
 }
 #heroSection {
   height: 100vh;
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -34,7 +36,7 @@ nav img {
   display: grid;
 }
 #NMU {
-  width: 50%;
+  width: 10%;
   cursor: pointer;
 }
 #Join {
