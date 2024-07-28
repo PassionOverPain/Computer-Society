@@ -225,12 +225,18 @@ section {
   height: 100vh;
   background-color: #fff;
 }
-section img {
-  height: 200px;
+.subImage {
+  height: 40px;
+}
+#Team {
+  display: block;
+}
+#Mandela {
   float: right;
+  height: 200px;
 }
 .subTitle {
-  display: block;
+  display: inline-block;
 }
 footer {
   background-color: rgb(2, 2, 134);
