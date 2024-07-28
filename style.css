@@ -8,12 +8,16 @@
 body {
   background-color: red;
 }
+#navBar {
+  position: relative;
+  display: inline-block;
+  top: -14vh;
+}
 nav {
   display: flex;
   justify-content: space-between;
   text-align: start;
-  position: relative;
-  top: -13vh; /* ---------------------Someone Fix This----------------  */
+  /* ---------------------Someone Fix This----------------  */
   width: 100vw;
   height: 10vh;
   background-color: aqua;
@@ -42,7 +46,7 @@ nav img {
 #Join {
   cursor: pointer;
   margin-top: 10%;
-  width: 30%;
+  width: 10%;
   padding: 10px;
   border-width: 1px;
   background-color: transparent;
