@@ -11,7 +11,7 @@ body {
 #navBar {
   position: relative;
   display: inline-block;
-  top: -14vh;
+  top: 0;
 }
 nav {
   display: flex;
@@ -29,7 +29,7 @@ nav img {
 }
 #heroSection {
   height: 100vh;
-  display: grid;
+  display: inline-block;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -38,6 +38,8 @@ nav img {
 }
 #heroCenter {
   display: grid;
+  justify-content: center;
+  align-items: center;
 }
 #NMU {
   width: 10%;
