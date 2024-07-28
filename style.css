@@ -18,6 +18,7 @@ body {
   position: sticky;
   display: inline-block;
   top: 0;
+  border-bottom: 1px solid;
 }
 nav {
   display: flex;
@@ -142,8 +143,10 @@ nav img {
   background-color: transparent;
   transition: all 0.2s;
   font-size: medium;
+  transition: all 0.5s;
 }
 #Join:hover {
+  transform: scale(1.2);
   background-color: var(--yellow);
 }
 #socialIcons {
@@ -159,8 +162,10 @@ nav img {
   border: solid 1px #000;
   border-radius: 100px;
   padding: 5px;
-  transition: border 0.5s;
+  transition: all 0.5s;
 }
 #socialIcons ion-icon:hover {
-  border-color: var(--yellow);
+  transform: scale(1.2);
+
+  color: var(--yellow);
 }
