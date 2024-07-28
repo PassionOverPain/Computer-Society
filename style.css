@@ -248,6 +248,16 @@ section {
   display: inline-block;
   font-size: var(--bigfont);
 }
+#OurEvents {
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+#eventContainer {
+  background-color: var(--yellow);
+  width: 50vw;
+  height: 50vh;
+}
 footer {
   background-color: rgb(2, 2, 134);
   height: 30vh;
