@@ -16,3 +16,9 @@ body {
   text-align: center;
   background-color: aquamarine;
 }
+#heroCenter {
+  display: grid;
+}
+#NMU {
+  display: block;
+}
