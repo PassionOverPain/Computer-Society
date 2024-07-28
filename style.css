@@ -7,7 +7,7 @@
   --smallfont: 1.2rem;
   --mainfont: 1.7rem;
   --bigfont: 3.2rem;
-  --yellow: rgb(255, 255, 5);
+  --yellow: rgb(232, 236, 1);
   text-decoration: none;
 }
 body {
@@ -75,6 +75,9 @@ nav img {
 }
 #socialIcons {
   margin-top: 10%;
+}
+#socialIcons a {
+  color: #000;
 }
 #socialIcons ion-icon {
   font-size: var(--mainfont);
