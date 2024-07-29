@@ -246,6 +246,7 @@ section {
   border-radius: 100%;
 }
 .subTitle {
+  margin-bottom: 10px;
   display: inline-block;
   font-size: var(--bigfont);
 }
@@ -255,9 +256,10 @@ section {
   text-align: center;
 }
 #eventContainer {
+  text-align: center;
   background-color: var(--yellow);
   width: 50vw;
-  height: 50vh;
+  height: fit-content;
 }
 footer {
   background-color: rgb(2, 2, 134);
