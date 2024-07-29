@@ -269,6 +269,14 @@ section {
   transform: scale(1.2);
 }
 footer {
+  display: grid;
+  justify-content: center;
   background-color: rgb(0, 0, 58);
-  height: 30vh;
+  height: 10vh;
+  color: #fff;
+  align-items: end;
+  text-align: center;
+}
+#CopyRight {
+  color: #fff;
 }
