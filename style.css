@@ -249,7 +249,7 @@ section {
   font-size: var(--bigfont);
 }
 #OurEvents {
-  display: block;
+  display: flex;
   justify-content: center;
   text-align: center;
 }
