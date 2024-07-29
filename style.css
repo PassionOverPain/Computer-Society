@@ -11,10 +11,10 @@
   text-decoration: none;
   color: #000;
   list-style: none;
+  scroll-behavior: smooth;
 }
 body {
   background-color: red;
-  scroll-behavior: smooth;
   cursor: none;
   height: fit-content;
   overflow-x: hidden;
