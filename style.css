@@ -220,6 +220,7 @@ main {
   height: fit-content;
 }
 section {
+  position: relative;
   display: block;
   justify-content: center;
   text-align: center;
