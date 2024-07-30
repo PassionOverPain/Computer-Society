@@ -297,13 +297,12 @@ button {
   background-color: #fff;
   border: solid 1px;
   padding: 10px;
-  margin: 1%;
+  margin: 2%;
   cursor: pointer;
   transition: all 0.5s;
 }
 button:hover {
   transform: scale(1.1);
-  color: #fff;
   background-color: blue;
 }
 footer {
