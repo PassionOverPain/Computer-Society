@@ -274,7 +274,7 @@ section {
   text-align: center;
 }
 #ContactTab {
-  display: grid;
+  display: inline-block;
   background-color: var(--yellow);
   height: 50vh;
   width: 50vw;
