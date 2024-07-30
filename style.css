@@ -288,6 +288,7 @@ input {
   padding: 10px;
 }
 #message {
+  border : 5px;
   position: relative;
   width: 40vw;
   height: 20vh;
