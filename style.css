@@ -278,6 +278,19 @@ section {
   background-color: var(--yellow);
   height: 50vh;
   width: 50vw;
+  overflow: hidden;
+}
+input {
+  border-radius: 15px;
+  width: 50%;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  padding: 10px;
+}
+#message {
+  position: relative;
+  width: 40vw;
+  height: 20vh;
 }
 footer {
   display: grid;
