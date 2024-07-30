@@ -268,6 +268,11 @@ section {
 .arrow ion-icon:hover {
   transform: scale(1.2);
 }
+#ContactTab {
+  background-color: var(--yellow);
+  height: 50vh;
+  width: 50vw;
+}
 footer {
   display: grid;
   justify-content: center;
