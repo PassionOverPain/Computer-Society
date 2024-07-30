@@ -14,7 +14,7 @@
   scroll-behavior: smooth;
 }
 body {
-  background-color: red;
+  background-color: #fff;
   cursor: none;
   height: fit-content;
   overflow-x: hidden;
@@ -224,8 +224,9 @@ section {
   display: block;
   justify-content: center;
   text-align: center;
-  height: 100vh;
+  height: fit-content;
   background-color: #fff;
+  margin-bottom: 1%;
 }
 .subImage {
   height: 40px;
