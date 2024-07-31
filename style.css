@@ -318,3 +318,8 @@ footer {
 #CopyRight {
   color: #fff;
 }
+#FAQcontainer {
+  background-color: var(--yellow);
+  height: 50vh;
+  width: 50vw;
+}
