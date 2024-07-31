@@ -318,8 +318,15 @@ footer {
 #CopyRight {
   color: #fff;
 }
-#FAQcontainer {
+#FAQbox {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#FAQTab {
+  display: inline-block;
   background-color: var(--yellow);
   height: 50vh;
   width: 50vw;
+  overflow: hidden;
 }
