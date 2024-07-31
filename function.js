@@ -20,12 +20,15 @@ window.addEventListener("mousemove", function (e) {
   );
 });
 
-const q = document.querySelector(".q");
-const a = document.querySelector(".a");
-const arr = document.querySelector(".arrow2");
-for (let i = 0; i < q.length; i++) {
+function work() {
+  const q = document.querySelector(".q");
+  const a = document.querySelector(".a");
+  const arr = document.querySelector(".arrow2");
+  // for (let i = 0; i < q.length; i++) {
   q[i].addEventListener("click", () => {
     a[i].classList.toggle("a-opened");
     arr[i].classList.toggle("arrow-rotated");
   });
 }
+
+// }
