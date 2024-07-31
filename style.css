@@ -339,6 +339,7 @@ footer {
   border-left: 10px var(--yellow) solid;
   cursor: pointer;
   transition: all 0.5s;
+  font-size: var(--smallfont);
 }
 .q:hover,
 .q:hover .arrow2 {
