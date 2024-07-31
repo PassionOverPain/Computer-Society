@@ -335,11 +335,15 @@ footer {
   border-bottom: 1px blue solid;
 }
 .q {
-  padding: 1em 0;
+  padding: 2px 0;
   border-left: 10px var(--yellow) solid;
   cursor: pointer;
+  transition: all 0.5s;
 }
 .q:hover,
 .q:hover .arrow {
   border-left-color: blue;
+}
+.arrow {
+  display: inline-block;
 }
