@@ -330,3 +330,16 @@ footer {
   width: 50vw;
   overflow: hidden;
 }
+.faq li {
+  background-color: var(--yellow);
+  border-bottom: 1px blue solid;
+}
+.q {
+  padding: 1em 0;
+  border-left: 10px var(--yellow) solid;
+  cursor: pointer;
+}
+.q:hover,
+.q:hover .arrow {
+  border-left-color: blue;
+}
