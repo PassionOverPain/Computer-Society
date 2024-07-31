@@ -326,7 +326,7 @@ footer {
 #FAQTab {
   display: inline-block;
   background-color: var(--yellow);
-  height: 50vh;
+  height: fit-content;
   width: 50vw;
   overflow: hidden;
 }
