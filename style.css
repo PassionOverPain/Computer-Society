@@ -321,7 +321,7 @@ footer {
 #FAQbox {
   display: flex;
   justify-content: center;
-  text-align: center;
+  text-align: start;
 }
 #FAQTab {
   display: inline-block;
@@ -332,7 +332,7 @@ footer {
 }
 .faq li {
   background-color: var(--yellow);
-  border-bottom: 1px blue solid;
+  border-bottom: 1px #000 solid;
 }
 .q {
   padding: 2px 0;
@@ -341,9 +341,32 @@ footer {
   transition: all 0.5s;
 }
 .q:hover,
-.q:hover .arrow {
+.q:hover .arrow2 {
   border-left-color: blue;
 }
-.arrow {
+.arrow2 {
   display: inline-block;
+  margin: 0 0.5em;
+  width: 0;
+  height: 0;
+  border-top: 6px solid transparent;
+  border-left: 10px solid black;
+  border-bottom: 6px solid transparent;
+  transition: all 0.5s;
+}
+.faq p {
+  line-height: 25px;
+  text-align: center;
+}
+.a {
+  overflow: hidden;
+  height: 0;
+  padding: 0 1em 0.3 3em;
+}
+.a-opened {
+  padding: 1em 1em 2em 3.3em;
+  height: initial;
+}
+.arrow-rotated {
+  transform: rotate(90deg);
 }
