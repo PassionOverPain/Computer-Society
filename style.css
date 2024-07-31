@@ -365,8 +365,8 @@ footer {
 }
 .a-opened {
   padding: 1em 1em 2em 3.3em;
-  height: initial;
+  height: 10vh;
 }
-.arrow-rotated {
+.arrow2-rotated {
   transform: rotate(90deg);
 }
