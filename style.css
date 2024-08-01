@@ -360,6 +360,7 @@ footer {
   text-align: center;
 }
 .a {
+  display: inline-block;
   overflow: hidden;
   height: 0;
   padding: 0 1em 0.3 3em;
