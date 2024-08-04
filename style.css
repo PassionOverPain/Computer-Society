@@ -16,7 +16,7 @@
 body {
   background-color: #fff;
   cursor: none;
-  align-items: start;
+  align-items: center;
   height: fit-content;
   overflow-x: hidden;
 }
@@ -213,10 +213,12 @@ nav img {
   height: fit-content;
   display: inline-block;
   background-color: var(--yellow);
-  font-size: var(--mainfont);
+  font-size: var(--smallfont);
   padding: 15px;
   text-align: start;
+  animation: slidein;
 }
+
 #steps ion-icon {
   position: absolute;
   top: 0;
