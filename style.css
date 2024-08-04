@@ -84,8 +84,8 @@ nav img {
   width: 100vw;
   height: fit-content;
   display: inline-block;
-  justify-content: start;
-  align-items: start;
+  justify-content: center;
+  align-items: center;
   background-color: #fff;
   position: relative;
 }
@@ -208,7 +208,7 @@ nav img {
   justify-content: center;
   width: 70vw;
   top: 20%;
-  left: -20%;
+  left: -50%;
   z-index: 100;
   height: fit-content;
   display: inline-block;
