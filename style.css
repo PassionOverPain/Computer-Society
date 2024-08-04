@@ -219,12 +219,18 @@ nav img {
   font-size: var(--bigfont);
   cursor: pointer;
 }
+#steps ion-icon:hover {
+  transform: scale(1.2);
+}
 #steps h4 {
   text-align: center;
 }
 #steps li {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+#steps a {
+  color: blue;
 }
 #socialIcons a {
   color: #000;
