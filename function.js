@@ -29,3 +29,11 @@ for (let i = 0; i < q.length; i++) {
     arr[i].classList.toggle("arrow2-rotated");
   });
 }
+
+const stepsTab = document.getElementById("steps");
+function closeSteps() {
+  stepsTab.style.display = "none";
+}
+function openSteps() {
+  stepsTab.style.display = "inline-block";
+}

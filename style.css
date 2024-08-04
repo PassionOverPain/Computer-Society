@@ -207,9 +207,9 @@ nav img {
 #steps {
   position: absolute;
   justify-content: center;
-  font-size: var(--smallfont);
-  width: 80vw;
-  left: -10%;
+  width: 50vw;
+  top: 20%;
+  left: -20%;
   z-index: 100;
   height: fit-content;
   display: inline-block;
