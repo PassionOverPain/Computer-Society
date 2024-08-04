@@ -36,7 +36,7 @@ body {
   left: 0;
   transform: translate(-50%, -50%);
   border-radius: 50%;
-  z-index: 1;
+  z-index: 1000;
   pointer-events: none;
 }
 #linkList {
@@ -217,6 +217,7 @@ nav img {
   top: 0;
   left: 90%;
   font-size: var(--bigfont);
+  cursor: pointer;
 }
 #steps h4 {
   text-align: center;
