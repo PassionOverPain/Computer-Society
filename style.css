@@ -201,6 +201,15 @@ nav img {
   margin-top: 10%;
 }
 #steps {
+  position: absolute;
+  justify-content: center;
+  width: 50vw;
+  left: -10vw;
+  z-index: 100;
+  height: fit-content;
+  display: inline-block;
+  background-color: var(--yellow);
+  padding: 15px;
 }
 #socialIcons a {
   color: #000;
