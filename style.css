@@ -92,7 +92,7 @@ nav img {
   justify-content: center;
   text-align: center;
   align-items: center;
-  height: 85vh;
+  height: fit-content;
   overflow: hidden;
 }
 #heroCenter {
@@ -200,9 +200,11 @@ nav img {
 #socialIcons {
   margin-top: 10%;
 }
+
 #steps {
   position: absolute;
   justify-content: center;
+  font-size: var(--mainfont);
   width: 50vw;
   left: -10%;
   z-index: 100;
