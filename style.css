@@ -211,12 +211,16 @@ nav img {
   left: -50%;
   z-index: 100;
   height: fit-content;
-  display: inline-block;
+  display: none;
   background-color: var(--yellow);
   font-size: var(--smallfont);
   padding: 15px;
   text-align: start;
   animation: slidein;
+  animation-duration: 2s;
+  animation-delay: 0s;
+}
+@keyframes slidein {
 }
 
 #steps ion-icon {
