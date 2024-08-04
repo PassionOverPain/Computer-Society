@@ -90,6 +90,7 @@ nav img {
   position: relative;
 }
 #heroTop {
+  margin-top: 20vh;
   display: grid;
   position: relative;
   justify-content: center;
